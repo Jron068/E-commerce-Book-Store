@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fde8a7;
+}
+
+/* Background container */
+.bg-site {
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+
+/* Titles */
+.text-title {
+  font-family: 'Roxborough CF', serif;
+  font-size: 2.5rem;
+  color: #fde8a7;
+  font-weight: bold;
+}
+
+/* Custom colors */
+.bg-green {
+  background-color: #17473B;
+}
+
+/* Navbar */
+.navbar .nav-link {
+  color: #fff;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.navbar .nav-link:hover {
+  color: #fde8a7;
+  transition: color 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.navbar .nav-link.active {
+  color: #fde8a7;
+  font-weight: bold;
+}
+
+/* Section text */
+section h2,
+section p {
+  color: #3a1f04;
+}
+
+section h2 {
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Roxborough CF';
+}
+
+/* Book cards */
+.book-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fde8a7;
+}
+
+.book-card img {
+  border-radius: 20px;
+}
+
+.book-card .btn {
+  background-color: #1e1e1e;
+  border: none;
+}
+
+/* Sign Up / Dark Buttons */
+.btn-dark {
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+
+
+/* Book Title */
+.title {
+  font-family: 'Canvas Sans', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+}

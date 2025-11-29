@@ -1,0 +1,46 @@
+.custom-select {
+    background-color: #f7e3a1;       /* soft yellow */
+    border: 2px solid #a67c52;       /* brown border */
+    color: #4b2e0f;                  /* dark brown text */
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.custom-select option {
+    background-color: #fdf3ce;       /* dropdown bg */
+    color: #4b2e0f;
+    font-weight: 500;
+}
+
+/* highlight when clicked */
+.custom-select:focus {
+    border-color: #6b4423;
+    box-shadow: 0 0 0 4px rgba(166, 124, 82, 0.3);
+}
+
+
+        body {
+            background-color: #fde8a7;
+        }
+        .summary-box {
+            background-color: #ccb080;
+            border-radius: 20px;
+            padding: 25px;
+        }
+        .summary-header {
+            background-color: #a3804e;
+            color: #2f3d0b;
+            border-radius: 15px;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+        .checkout-btn {
+            background-color: #5c2621;
+            color: white;
+            border-radius: 25px;
+            padding: 10px 35px;
+            font-weight: bold;
+        }
+
